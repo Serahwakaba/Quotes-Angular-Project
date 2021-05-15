@@ -1,9 +1,7 @@
 <div class="container-fluid">
     <h1 class="center">Powerfull Quotes From Legends</h1>
     <div class="row">
-         <div class="col-md-3">
-              <app-quotes-form (addQuote)='addNewQuote($event)'></app-quotes-form>
-         </div>
+        
          <div class="col-md-7 ">
               <div class="all-card">
                    <div *ngFor='let quote of quotes;let i=index' class="card-body all">
