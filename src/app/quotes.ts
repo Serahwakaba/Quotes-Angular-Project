@@ -7,7 +7,8 @@ export class Quotes {
         public poster:string, 
         public completeDate:Date,
         public numberOflikes:number,
-        public numberOfdislikes:0){
+        public numberOfdislikes:0)
+        {
 this.showDescription=false;
     }
 }
