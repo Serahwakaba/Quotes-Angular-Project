@@ -15,7 +15,9 @@
             <label for="name">Type of Quote</label><br><br>
             <input type="text"  class="form-control" #name='ngModel' [(ngModel)]="newQuote.name"s  name="name" id="name" required>
   
-           
+            <div [hidden]="name.valid || name.pristine" class="alert alert-danger">
+                <p>Type of quote is required</p>
+            </div>
         </div> 
         <div class="form-group">
   
