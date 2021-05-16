@@ -10,6 +10,9 @@ import { Quotes } from '../quotes';
 export class QuotesDetailsComponent implements OnInit {
 
   @Input() quote: Quotes;
+  numberOflikes=0;
+  numberOfdislike=0
+  
 
 
   constructor() { }
